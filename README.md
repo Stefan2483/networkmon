@@ -16,6 +16,7 @@ git clone https://github.com/Stefan2483/networkmon ~/
 You will also have to set the pooler scripts in the root crontab:
 #Pooler for networkmonit
 */5 * * * * /bin/sh <user home dir>/networkmonit/speedtest/run_speedtest.sh 2><user home dir>/networkmonit/speedtest/LOG/crontab_err.log
+
 */5 * * * * /bin/sh <user home dir>/networkmonit/resources/update_resource_rrd.sh 2><user home dir>/networkmonit/resources/LOG/crontab_err.log
 
 
