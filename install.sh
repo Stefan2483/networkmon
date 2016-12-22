@@ -8,7 +8,7 @@ echo ""
 echo ""
 
 echo "Installing apache2, python, php5, libapache2-mod-php5..."
-sudo apt-get install apache2 php5 libapache2-mod-php5 python
+sudo apt-get install apache2 php5 libapache2-mod-php5 python-pip
 echo ""
 echo ""
 
